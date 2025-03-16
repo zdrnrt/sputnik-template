@@ -1,12 +1,23 @@
-:root{
+// :root{
+.modal{
   --bs-modal-border-radius: 0.8rem;
+  --bs-modal-header-padding: 30px;
 }
 
-.modal-content{
+.modal-header{
+  padding: 1.6rem 2rem 1.3rem;
+}
+
+.modal-body{
   --bs-modal-border-radius: 0.8rem;
+  padding: 0.8rem 2rem;
 }
 
 .modal-title{
   font-size: 1.8rem;
   font-weight: 500;
+}
+
+.modal-footer{
+  padding: 1.2rem 2rem 2rem;
 }

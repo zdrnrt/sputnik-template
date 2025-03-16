@@ -8,7 +8,7 @@
   &__table{
     // background-color: var(--bs-border-color);
     border-radius: 0.4rem;
-    color: $cl-additon;
+    color: $cl-black;
     &--fixed-head{
       thead{
         position: fixed;
@@ -23,7 +23,7 @@
       }
     }
     th{
-      background-color: $cl-grey-purple;
+      background-color: $cl-table-head;
       font-weight: 500;
       vertical-align: baseline;
     }
