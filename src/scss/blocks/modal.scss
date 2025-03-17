@@ -1,11 +1,12 @@
 // :root{
 .modal{
-  --bs-modal-border-radius: 0.8rem;
+  --bs-modal-border-radius: $border-radius;
   --bs-modal-header-padding: 30px;
 }
 
 .modal-header{
   padding: 1.6rem 2rem 1.3rem;
+  border: none;
 }
 
 .modal-body{

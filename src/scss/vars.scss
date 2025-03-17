@@ -14,19 +14,14 @@ $cl-white: #fff;
 
 $cl-btn-hover: #CACCF7;
 $cl-border: $cl-grey-middle;
-$cl-table-head: #f1f2ff;
-
-$red: red;
 
 $border-radius: 0.8rem;
-$border-radius-table: 0.4rem;
 
 $transition-time: 0.2s;
 
 :root{
-  --cl-purple: $cl-purple;
   --bs-border-radius: 0.8rem;
-  --bs-border-color: #EAEAF0;
+  --bs-border-color: #{$cl-grey-middle};
 
   --bs-link-color: #{$cl-purple};
   --bs-link-color-rgb: 71, 75, 171;

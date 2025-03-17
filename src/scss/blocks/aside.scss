@@ -24,6 +24,9 @@
       transform: none;
     }
   }
+  &__content{
+    min-height: calc(100vh - 2.4rem);
+  }
   &__header{
     width: 100%;
   }
