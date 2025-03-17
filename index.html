@@ -39,16 +39,17 @@
           </header>
           <nav id="nav" class="aside__nav aside-nav">
             <button class="aside-nav__item nav-item d-flex justify-content-start align-items-center" onclick="tabChange(this); moduleOpen('./src/html/template.html');">
-              <div class="nav-item__title">Пример страницы</div>
+              <img src="./public/images/icons/calendar.svg" class="nav-item__icon">
+              <span class="nav-item__title">Пример страницы</span>
             </button>
             <button class="aside-nav__item nav-item d-flex justify-content-start align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#data-nav-collapse" aria-expanded="true" aria-controls="nav-collapse">
               <img src="./public/images/icons/table.svg" class="nav-item__icon">
-              <div class="nav-item__title">Пример раздела</div>
+              <span class="nav-item__title">Пример раздела</span>
               <img src="./public/images/icons/angle.svg" class="nav-item__angle">
             </button>
             <div id="data-nav-collapse" class="collapse aside-nav__item aside-nav__item--collapse" data-bs-parent="nav">
               <button class="aside-nav__item nav-item d-flex justify-content-start align-items-center" onclick="tabChange(this); templateOpen();">
-                <div class="nav-item__title">Пример страницы</div>
+                <span class="nav-item__title">Пример страницы</span>
               </button>
             </div>
           </nav>
